@@ -32,14 +32,12 @@ public class Main {
             annonce a2 = new annonce(1000, "titre", "type", "gouvernorat", "ville", "description", 29280596);
              annonce a4 = new annonce(14,68888, "aaaa", "bbb", "cccc", "ddd", "eee", 10000);
             
-            //  annonce a3 = new annonce(777);
             ServiceAnnonce sa = new ServiceAnnonce();
          
             
         
             try {
                    sa.updateAnnonce(a4);
-          //sa.updatePrix(777, 7);
         //  sa.updateAnnonce(a4, 50);
   //sa.addAnnonce(a1);
   //a2.setPrix(500);
